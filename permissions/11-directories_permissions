@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +X /root/atlas-shell/permissions
+chmod +x atlas-shell/permissions
