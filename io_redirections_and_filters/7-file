@@ -1,0 +1,8 @@
+#!/bin/bash
+
+filename="\\*\\\\'\"Best School\"'\\\\*$\\?\\*\\*\\*\\*\\*:"
+
+echo -e "Best School\n" > "$filename"
+
+echo "File '$filename' has been created with 2 lines."
+
