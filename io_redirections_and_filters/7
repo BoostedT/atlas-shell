@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Define the filename with escaped special characters
+filename="\\*\\\\'\"Best School\"'\\\\*$\\?\\*\\*\\*\\*\\*:"
+
+# Create the file with the specified name and write "Best School" followed by a newline
+echo -e "Best School\n" > "$filename"
+
+echo "File '$filename' has been created with 2 lines."
+
