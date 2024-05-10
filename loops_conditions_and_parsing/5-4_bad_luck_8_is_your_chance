@@ -1,20 +1,17 @@
 #!/usr/bin/env bash
-######
+##########
 i=1
-
 while true; do
-	echo "Best School"
+    echo "Best School"
     if [ $i -eq 4 ]; then
-	echo "bad luck"
-
+        echo "bad luck"
     elif [ $i -eq 8 ]; then
-	echo "good luck"
-
+        echo "good luck"
     elif [ $i -eq 10 ]; then
-	break
-
-    else
-	echo "Best School"
+        echo "Best School"
+        break
     fi
-((i++)) 
+    ((i++))
 done
+
+
