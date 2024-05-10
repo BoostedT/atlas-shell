@@ -1,2 +1,2 @@
 #!/bin/bash
-export BREATHE=0 | export LOVE=0 | echo $(( $BREATHE ^ $LOVE)) \n
+export BREATHE=3 | export LOVE=4 | echo $(( $BREATHE ^ $LOVE)) \n | bc
