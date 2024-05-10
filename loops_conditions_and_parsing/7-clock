@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 ########
-hours=0
+hours=1
+minutes=59
 
 while [ $hours -le 12 ]; do
-	minutes=1
+	echo "$hours"
 while [ $minutes -le 59 ]; do
-	printf "%02d:%02d\n" $hours $minutes
+	echo -e "$hour\n"
 	((minutes++))
 done
 	((hours++))
