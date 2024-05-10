@@ -12,9 +12,9 @@ while true; do
 
     elif [ $i -eq 10 ]; then
 	break
-    fi
 
     else
 	echo "Finished"
+    fi
 ((i++)) 
 done
