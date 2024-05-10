@@ -7,7 +7,7 @@ while true; do
         echo "bad luck"
     elif [ $i -eq 8 ]; then
         echo "good luck"
-    elif [ $i -eq 10 ]; then
+    else [ $i -eq 10 ]; then
         echo "Best School"
         break
     fi
