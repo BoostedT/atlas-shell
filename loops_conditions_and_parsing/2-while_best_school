@@ -1,0 +1,7 @@
+#!/user/bin/env bash
+#### uses env to execute in bash
+i=Best School
+
+while [ $i -le 10]; do
+	echo $i
+done
