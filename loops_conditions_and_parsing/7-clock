@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 ########
-i=1
+hours=0
 
-while true; do
-
-	clear
-	date "+%T"
-	sleep 1
+while [ $hours -le 12 ]; do
+	minutes=1
+while [ $minutes -le 59 ]; do
+	printf "%02d:%02d\n" $hours $minutes
+	((minutes++))
+done
+	((hours++))
 done
