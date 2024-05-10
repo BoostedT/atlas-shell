@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 #### uses env to execute in bash
 i=Best School
 
