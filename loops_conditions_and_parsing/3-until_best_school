@@ -3,9 +3,9 @@
 i=1
 
 until false; do 
-	echo "Best School"
-	if (( i<=10)); then
-	    break
+echo "Best School"
+  if [ $i -eq 10 ]; then
+    break
 fi
-	((i++))
+((i++))
 done
