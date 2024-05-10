@@ -3,13 +3,12 @@
 i=1
 
 while true; do
-	echo "Best Shool"
+	echo "Best School"
 	if [ $i -eq 9 ]; then
-		echo "hi"
-		break
+		echo "Hi"
 	fi
 	if [ $i -eq 10 ]; then
-	    echo "Best School"
+	    break
 
 	fi
 	((i++))
