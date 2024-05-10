@@ -6,18 +6,18 @@ while [ $i -le 20 ]; do
 	case $i in
 
 	   4)
-		echo " $i and then bad luck from China"
+		echo " $i and then bad luck from China\n"
 
 		;;
 	   9)
 
-		echo "$i and then bad luck from Japan"
+		echo "$i and then bad luck from Japan\n"
 
 		;;
 
 	   17) 
 
-		echo "$i and then bad luck from Italy"
+		echo "$i and then bad luck from Italy\n"
 
 		;;
 
