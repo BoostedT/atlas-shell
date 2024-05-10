@@ -6,11 +6,11 @@ while true; do
 	echo "Best School"
     if [ $i -eq 4 ]; then
 	echo "bad luck"
-    fi
-    if [ $i -eq 8 ]; then
+
+    elif [ $i -eq 8 ]; then
 	echo "good luck"
-    fi
-    if [ $i -eq 10 ]; then
+
+    elif [ $i -eq 10 ]; then
 	break
     fi
 ((i++)) 
