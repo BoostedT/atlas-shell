@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #### uses env to execute in bash
-i=Best School
+i="Best School"
 
 while [ $i -le 10]; do
 	echo $i
