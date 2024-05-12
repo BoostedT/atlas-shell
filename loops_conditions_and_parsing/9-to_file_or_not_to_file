@@ -3,9 +3,9 @@
 
 s="school"
 
-	if [ -e $s ]
-	then
-	    echo "school file exists"
+     if [ -e $s ]
+     then
+        echo "school file exists"
 	if [ ! -s $s]
 	then
 	    echo "school file is empty"
@@ -16,7 +16,7 @@ s="school"
 	then
 	    echo "school is a regular file"
 	fi
-	else
+     else
 	    echo "school file does not exist"
-	done
+	fi
 
