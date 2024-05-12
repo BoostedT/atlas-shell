@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-####
-
-dir="/etc/passwd"
+###
 
 while read -r line;
 do
       echo "$line" | cut':' --fields1,3,6
-done < $dir
+done < /etc/passwd
