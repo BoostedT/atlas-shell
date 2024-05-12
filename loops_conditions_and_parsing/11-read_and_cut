@@ -5,4 +5,4 @@ dir="/etc/passwd
 
 while IFS= read -r line; then
 	echo "$line" | cut':' -f1,3,6;
-done </etc/passwd
+done < $dir
