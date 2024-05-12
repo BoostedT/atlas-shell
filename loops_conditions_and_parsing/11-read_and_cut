@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 ####
 
-dir="/etc/passwd
+dir="/etc/passwd"
 
 while IFS= read -r line; then
 	echo "$line" | cut':' -f1,3,6;
-done < $dir
+break < $dir
