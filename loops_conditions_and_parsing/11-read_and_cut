@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+####
+
+dir="/etc/passwd
+
+while IFS= read -r line; then
+	echo "$line | cut':'
+done
