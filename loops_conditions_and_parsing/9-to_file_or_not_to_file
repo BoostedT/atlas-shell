@@ -6,7 +6,7 @@ s="school"
      if [ -e $s ]
      then
         echo "school file exists"
-	if [ ! -s $s]
+	if [ ! -s $s ]
 	then
 	    echo "school file is empty"
 	else
