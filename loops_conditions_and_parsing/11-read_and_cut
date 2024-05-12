@@ -3,7 +3,7 @@
 
 dir="/etc/passwd"
 
-while IFS= read -r line;
+while read -r line;
 do
       echo "$line" | cut':' --fields1,3,6
 done < $dir
